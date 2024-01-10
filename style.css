@@ -14,7 +14,7 @@ a {
     --width-content: 1250px;
     --column-size: 120px;
     --bg-header-color: #060d25;
-    --text-color: #03a9f4;
+    --text-color: #ffffff;
     --footer-bg: #000
 }
 
@@ -103,13 +103,13 @@ nav ul li a {
     text-decoration: none;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgba(56,182,255,.19)
+    background-color: rgba(6 13 37)
 }
 
 nav ul li a:hover {
     transition: .3s;
     color: #fff;
-    box-shadow: 0 0 14px 2px #ffffff6e
+    box-shadow: 0 0 20px 20px #ff00006e
 }
 
 .togglebtn {
@@ -408,10 +408,21 @@ nav ul li a:hover {
     margin-top: 30px;
     color: #fff
 }
+.game-desc1 {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    color: #fff
+}
+.game-desc1-left {
+    float: left;
+    width: 60%;
+}
+
 
 .game-desc-left {
     float: left;
-    width: 60%
+    width: 100%
 }
 
 .game-desc-right {
